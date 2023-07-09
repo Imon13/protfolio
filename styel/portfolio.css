@@ -32,6 +32,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: var(--dark-02, #474747);
+    margin: 0px 20px;
 
 }
 .buttton-primary{
@@ -43,5 +44,32 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 
-
+}
+/* headerrelated */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 50px 150px;
+    display: flex;
+    align-items: center;
+}
+.hi{
+    color: var(--dark-02, #474747);
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+}
+.imon{
+    color: var(--dark-01, #181818);
+    
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+img{
+    width: 250px;
+height: 200px;
+flex-shrink: 0;
 }
